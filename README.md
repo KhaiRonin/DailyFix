@@ -2,33 +2,11 @@
 
 DailyFix is a public learning log where I research real developer problems and publish practical fixes with source links, notes, and minimal examples.
 
-The goal is to build a useful archive, not empty activity. Each entry should explain the problem, why it happens, how to fix it, and how to verify the result.
+The goal is to build a useful archive, not empty activity. Each entry explains the problem, why it happens, how to fix it, and how to verify the result.
 
-## How It Works
+## Entries
 
-Generate a daily draft:
-
-```bash
-npm run daily:solution
-```
-
-Generate from a custom topic:
-
-```bash
-npm run daily:solution -- --topic="Supabase session is null after refresh" --source="https://supabase.com/docs/guides/auth/sessions"
-```
-
-After editing today's entry, commit it:
-
-```bash
-npm run daily:solution -- --commit-today
-```
-
-Commit and push today's entry:
-
-```bash
-npm run daily:solution -- --push-today
-```
+Daily solutions are organized by date under `daily-dev-solutions/entries/`.
 
 ## Entry Standard
 
