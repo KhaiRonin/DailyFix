@@ -1,0 +1,17 @@
+{
+  "name": "dailyfix",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Daily researched fixes for real developer problems.",
+  "type": "module",
+  "scripts": {
+    "daily:solution": "node scripts/daily-solution.mjs"
+  },
+  "keywords": [
+    "daily",
+    "developer-tools",
+    "bug-fixes",
+    "learning-log"
+  ],
+  "license": "MIT"
+}
